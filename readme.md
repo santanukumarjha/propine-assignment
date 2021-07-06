@@ -1,7 +1,7 @@
 ## Question 2 problem solution
- Transactions.csv can be loaded to any data store:
-    1. Load it to fast searching data store i.e. ElasticSearch.
-    2. Load it to SQL(i.e. MYSQL) or NO-SQL(i.e. MongoDB) data store.
+    Transactions.csv can be loaded to any data store:
+        1. Load it to fast searching data store i.e. ElasticSearch.
+        2. Load it to SQL(i.e. MYSQL) or NO-SQL(i.e. MongoDB) data store.
 # Loading Data store to ElasticSearch
     ElasticSearch stack(i.e. ELK)
         1. Elastisearch (Data store)
