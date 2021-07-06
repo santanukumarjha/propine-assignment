@@ -27,7 +27,7 @@ async function getRecordFromElasticCache(token, date) {
         }
     });
     console.log(`amount ${result.body.hits.hits[0]._source.amount}`);
-    return result.body.hits.hits[0]._source.amount;
+    return result.body.hits.hits[0]?._source.amount;
 }
 module.exports = (token, date) => {
     getRecordFromElasticCache(token, date)
